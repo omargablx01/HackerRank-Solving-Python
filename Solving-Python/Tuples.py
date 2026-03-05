@@ -1,0 +1,8 @@
+# Python 2 Solving 
+# حلتها ب python2 علشان python3 في مشكله
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    integer_list = map(int, raw_input().split())
+    integer_tuple = tuple(integer_list)
+    print(hash(integer_tuple))
